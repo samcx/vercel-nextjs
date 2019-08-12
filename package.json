@@ -1,0 +1,20 @@
+{
+  "name": "next-api-routes",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "description": "testing out API routes in next.js",
+  "repository": "https://github.com/samsisle/next-api-routes",
+  "license": "MIT",
+  "scripts": {
+    "now-build": "next build"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^0.2.1-canary.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
