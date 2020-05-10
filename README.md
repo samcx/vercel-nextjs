@@ -1,3 +1,3 @@
-## Next API Routes
+## Next.js Api Routes
 
-- testing out new API routes -> `pages/api/example.js` in next.js
+- Testing out api routes -> `pages/api/hygge.js` in Next.js
