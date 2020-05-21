@@ -1,3 +1,6 @@
-## Next.js Api Routes
+## Next.js API Routes
 
-- Testing out api routes -> `pages/api/hygge.js` in Next.js
+- Testing out API routes -> `pages/api/hygge.js` in Next.js
+
+## Environment Variable UI Settings
+
