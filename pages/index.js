@@ -3,7 +3,7 @@ import fetch from "isomorphic-unfetch";
 import { server } from "../lib/config";
 
 export default function index(props) {
-  return <div>{props.hygge}</div>;
+  return <div className="enlarge">{props.hygge}</div>;
 }
 
 index.getInitialProps = async () => {
