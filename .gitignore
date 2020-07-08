@@ -11,4 +11,3 @@ dist
 # misc
 .DS_Store
 .vscode
-.env
