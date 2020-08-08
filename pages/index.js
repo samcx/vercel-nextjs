@@ -1,7 +1,3 @@
-import fetch from "isomorphic-unfetch";
-
-import { server } from "../lib/config";
-
 export default function index(props) {
   return (
     <>
@@ -11,9 +7,9 @@ export default function index(props) {
   );
 }
 
-index.getInitialProps = async () => {
-  const res = await fetch(`${server}/api/hygge`);
+export async function getStaticProps() {
+  const res = await fetch(`${process.env.API_URL}/api/hygge`);
   const json = await res.json();
 
-  return { hygge: json.hygge };
-};
+  return { props: { hygge: json.hygge } };
+}
