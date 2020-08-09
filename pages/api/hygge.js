@@ -1,3 +1,3 @@
-export default function Hygge(req, res) {
+export default (req, res) => {
   res.json({ hygge: `${process.env.HYGGE} ☀️` });
-}
+};
