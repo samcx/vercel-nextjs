@@ -5,4 +5,9 @@
 
 .author {
   font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.uuid {
+  margin-bottom: 6px;
 }
