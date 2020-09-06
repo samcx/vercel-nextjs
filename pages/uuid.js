@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
 
-export default function Guid({ uuid }) {
+export default function Uuid({ uuid }) {
   return (
     <div>
       <div className='uuid'>ID: {uuid}</div>
