@@ -1,7 +1,7 @@
 {
-  "name": "next-api-routes",
+  "name": "next-test",
   "version": "1.0.0",
-  "description": "Testing out api routes in Next.js",
+  "description": "Testing out Next.js features",
   "repository": "https://github.com/samsisle/next-api-routes",
   "license": "MIT",
   "scripts": {
