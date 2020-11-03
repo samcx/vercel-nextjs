@@ -7,8 +7,8 @@ node_modules
 dist
 .next
 .vercel
+.env.production
 
 # misc
 .DS_Store
 .vscode
-.env
