@@ -1,3 +1,3 @@
-## Next.js API Routes
+## next-test
 
-Testing out API routes → `pages/api/hygge.js` in Next.js
+Testing out Next.js features.
