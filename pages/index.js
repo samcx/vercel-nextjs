@@ -5,7 +5,7 @@ export default function Index(props) {
     <div>
       <div className='title'>{props.hygge}</div>
       <div className='author'>By {process.env.NEXT_PUBLIC_AUTHOR}</div>
-      <Link href="/uuid">Uuid</Link>
+      <Link href='/uuid'>Uuid</Link>
     </div>
   );
 }
