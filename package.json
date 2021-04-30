@@ -5,7 +5,7 @@
   "repository": "https://github.com/samsisle/next-api-routes",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -18,6 +18,6 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "eslint-config-next": "^11.0.1"
+    "eslint-config-next": "^11.1.0"
   }
 }
