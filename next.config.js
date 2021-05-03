@@ -5,7 +5,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/test/:match*',
+        source: '/bruh/:match*',
         destination: 'https://vercel.com/:match*',
         permanent: true,
       },
