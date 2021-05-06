@@ -1,12 +1,33 @@
 // next.config.js
 module.exports = {
   reactStrictMode: true,
-  async rewrites() {
+  async headers() {
     return [
       {
-        source: '/bruh/:path*',
-        destination:
-          'https://www.whatismybrowser.com/detect/what-http-headers-is-my-browser-sending',
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block',
+          },
+        ],
+      },
+      {
+        source: '/',
+        headers: [
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block',
+          },
+        ],
       },
     ];
   },
