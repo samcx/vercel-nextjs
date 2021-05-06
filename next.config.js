@@ -1,13 +1,12 @@
 // next.config.js
 module.exports = {
-  productionBrowserSourceMaps: true,
   reactStrictMode: true,
-  async redirects() {
+  async rewrites() {
     return [
       {
-        source: '/bruv/:match*',
-        destination: 'https://vercel.com/:match*',
-        permanent: true,
+        source: '/bruh/:path*',
+        destination:
+          'https://www.whatismybrowser.com/detect/what-http-headers-is-my-browser-sending',
       },
     ];
   },
