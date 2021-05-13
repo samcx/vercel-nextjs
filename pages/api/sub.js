@@ -14,15 +14,15 @@ export default async function sub(req, res) {
       }
     );
 
-    const data = await response.json()
+    const data = await response.json();
 
-    res.json(data);
+    res.json(JSON.stringify(data));
   } catch (err) {
     return res.json({
       status: 'failed',
       tiers: null,
       message: null,
-      error: err.response.data,
+      error: JSON.stringify(err.response.data),
     });
   }
 }
