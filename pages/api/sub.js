@@ -14,7 +14,9 @@ export default async function sub(req, res) {
       }
     );
 
-    return res.json(response);
+    const data = await response.json()
+
+    res.json(data);
   } catch (err) {
     return res.json({
       status: 'failed',
