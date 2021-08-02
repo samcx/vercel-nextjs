@@ -3,10 +3,10 @@ export default function test({ test }) {
 }
 
 export async function getServerSideProps(context) {
-  console.log('req.headers.host =', context.req.headers.host)
+  console.log('context.req.headers =', context.req.headers);
   return {
     props: {
-      test: "Hello World!",
+      test: 'Hello World!',
     },
   };
 }
