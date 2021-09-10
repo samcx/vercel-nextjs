@@ -14,7 +14,7 @@ module.exports = {
     return [
       {
         source: '/yeet',
-        destination: 'https://next-dynamic-export-sk.netlify.app/',
+        destination: 'https://samsisle.com/',
       },
     ];
   },
