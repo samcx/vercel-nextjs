@@ -13,7 +13,7 @@ module.exports = {
   async rewrites() {
     return [
       {
-        source: 'yeet',
+        source: '/yeet',
         destination: 'https://next-dynamic-export-sk.netlify.app/',
       },
     ];
