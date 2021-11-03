@@ -3,7 +3,6 @@ import Link from 'next/link';
 export default function Index(props) {
   return (
     <div>
-      <div>TESTING</div>
       <div className='title'>{props.hygge}</div>
       <div className='author'>By {process.env.NEXT_PUBLIC_AUTHOR}</div>
       <Link href='/uuid'>Uuid</Link>
@@ -12,8 +11,5 @@ export default function Index(props) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${process.env.API_URL}/api/hygge`);
-  const json = await res.json();
-
-  return { props: { hygge: json.hygge } };
+  return { props: { hygge: 'hygge' } };
 }
