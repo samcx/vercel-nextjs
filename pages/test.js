@@ -1,12 +1,5 @@
-export default function test({ test }) {
-  return <div>{test}</div>;
-}
+import Image from 'next/image';
 
-export async function getServerSideProps(context) {
-  console.log('[test] resolvedUrl =', context.req.resolvedUrl);
-  return {
-    props: {
-      test: 'Hello World!',
-    },
-  };
+export default function test() {
+  return <Image src='/hoobe.jpeg' alt='hoobe' height='410px' width='810px' />;
 }
