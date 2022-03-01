@@ -5,7 +5,7 @@ module.exports = {
     return [
       {
         source: '/yeet',
-        destination: 'https://test.com/',
+        destination: 'https://google.com/',
       },
     ];
   },
