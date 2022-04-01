@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { v4 as uuidv4 } from 'uuid';
-import ReturnHardcodedId from '../lib/RustUuid';
+import ReturnHardcodedId from '../../lib/RustUuid';
 
 export default function Uuid({ uuid }) {
   return (
