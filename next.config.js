@@ -5,7 +5,7 @@ module.exports = {
     return [
       {
         source: '/yeet',
-        destination: 'https://google.com/',
+        destination: 'https://httpbin.org/headers',
       },
     ];
   },
