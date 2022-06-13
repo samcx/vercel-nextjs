@@ -6,6 +6,6 @@ export default function ip(req, res) {
     ip = ip.substr(7);
   }
 
-  res.setHeader('Cache-Control', 's-maxage=1, stale-while-revalidate=59')
+  res.setHeader('Cache-Control', 'public, s-maxage=1, stale-while-revalidate=59')
   res.status(200).json({ ip });
 }
