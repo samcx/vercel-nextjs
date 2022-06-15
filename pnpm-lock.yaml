@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^17.0.42
+  '@types/node': ^18.0.0
   '@types/react': ^18.0.12
   '@types/react-dom': ^18.0.5
   eslint: ^8.18.0
@@ -19,7 +19,7 @@ dependencies:
   uuid: 8.3.2
 
 devDependencies:
-  '@types/node': 17.0.42
+  '@types/node': 18.0.0
   '@types/react': 18.0.12
   '@types/react-dom': 18.0.5
   eslint: 8.18.0
@@ -209,8 +209,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/17.0.42:
-    resolution: {integrity: sha512-Q5BPGyGKcvQgAMbsr7qEGN/kIPN6zZecYYABeTDBizOsau+2NMdSVTar9UQw21A2+JyA2KRNDYaYrPB0Rpk2oQ==}
+  /@types/node/18.0.0:
+    resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
     dev: true
 
   /@types/prop-types/15.7.5:
