@@ -1,6 +1,10 @@
-import Link from 'next/link';
+import type { GetStaticProps, NextPage } from 'next/types';
 
-export default function Index(props) {
+type IndexProps = {
+  hygge: string;
+};
+
+const Index: NextPage<IndexProps> = (props) => {
   return (
     <div>
       <div className='title'>{props.hygge}</div>
@@ -8,11 +12,12 @@ export default function Index(props) {
       <div className='author'>
         NEXT_PUBLIC_VERCEL_ENV = {process.env.NEXT_PUBLIC_VERCEL_ENV}
       </div>
-      {/* <Link href='/uuid'>Uuid</Link> */}
     </div>
   );
-}
+};
 
-export async function getStaticProps() {
+export default Index;
+
+export const getStaticProps: GetStaticProps = async () => {
   return { props: { hygge: 'hygge' } };
-}
+};
