@@ -1,3 +1,3 @@
-## next-test
+## vercel-next-test
 
-Testing out Next.js features.
+Testing out Next.js + Vercel features.
