@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next -p 3001",
-    "build": "NODE_OPTIONS=--max-old-space-size=8192 next build",
+    "build": "ldd --version && next build",
     "start": "next start",
     "lint": "next lint"
   },
