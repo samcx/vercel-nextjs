@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next -p 3001",
-    "build": "ldd --version && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
