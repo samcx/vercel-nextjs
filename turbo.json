@@ -1,19 +1,14 @@
 {
-  "$schema": "https://turborepo.org/schema.json",
   "pipeline": {
     "build": {
-      "dependsOn": [],
-      "outputs": []
-    },
-    "test#build": {
       "env": ["NEXT_PUBLIC_AUTHOR", "NEXT_PUBLIC_VERCEL_ENV"],
       "outputs": [".next/**"]
     },
-    "lint": {
-      "outputs": []
-    },
     "dev": {
       "cache": false
+    },
+    "lint": {
+      "outputs": []
     }
   }
 }
