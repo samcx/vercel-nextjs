@@ -2,9 +2,21 @@
 const nextConfig = {
   experimental: {
     appDir: true,
-    runtime: 'experimental-edge',
   },
   reactStrictMode: true,
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+        ],
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
