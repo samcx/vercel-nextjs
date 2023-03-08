@@ -9,6 +9,7 @@ export default function Page() {
       <div className="author">
         NEXT_PUBLIC_VERCEL_ENV = {process.env.NEXT_PUBLIC_VERCEL_ENV}
       </div>
+      <div>bruhhh</div>
     </div>
   )
 }
