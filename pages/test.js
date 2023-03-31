@@ -1,5 +1,5 @@
 export default function Test() {
-  return <div>bruh</div>
+  return <div>test</div>
 }
 
 export function getStaticProps(context) {
