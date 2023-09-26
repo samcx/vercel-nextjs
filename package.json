@@ -5,7 +5,7 @@
   "repository": "https://github.com/samcx/vercel-nextjs",
   "license": "MIT",
   "scripts": {
-    "dev": "next -p 3005",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
