@@ -12,7 +12,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "^8.54.0",
     "eslint-config-next": "canary",
     "next": "canary",
     "react": "^18.2.0",
@@ -25,6 +24,7 @@
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
+    "eslint": "^8.56.0",
     "husky": "^8.0.3"
   }
 }
