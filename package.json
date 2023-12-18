@@ -15,8 +15,7 @@
     "next": "canary",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "turbo": "^1.10.16",
-    "typescript": "^5.3.2"
+    "turbo": "^1.10.16"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
@@ -25,6 +24,7 @@
     "@types/react-dom": "^18.2.18",
     "eslint": "^8.56.0",
     "eslint-config-next": "canary",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "typescript": "^5.3.3"
   }
 }
