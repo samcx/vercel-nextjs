@@ -1,3 +1,3 @@
 ## vercel-nextjs
 
-Testing Next.js + Vercel features.
+Testing Next.js on Vercel.
