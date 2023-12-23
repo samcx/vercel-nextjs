@@ -1,7 +1,7 @@
 {
   "name": "vercel-nextjs",
   "version": "1.0.0",
-  "description": "Testing out Next.js features on Vercel.",
+  "description": "Testing Next.js on Vercel.",
   "repository": "https://github.com/samcx/vercel-nextjs",
   "license": "MIT",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
-    "@types/node": "^20.10.5",
+    "@types/node": "^20.10.6",
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "eslint": "^8.56.0",
