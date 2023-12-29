@@ -5,7 +5,6 @@
   "repository": "https://github.com/samcx/vercel-nextjs",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install",
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
