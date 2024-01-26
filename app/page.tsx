@@ -1,10 +1,6 @@
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Page() {
+export default async function Page() {
   return (
-    <div className={inter.className}>
+    <div>
       <div className="author">By {process.env.NEXT_PUBLIC_AUTHOR}</div>
     </div>
   )
