@@ -5,25 +5,25 @@
   "repository": "https://github.com/samcx/vercel-nextjs",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.1-canary.27",
+    "next": "14.1.1-canary.48",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
-    "@types/node": "^20.11.16",
-    "@types/react": "^18.2.52",
-    "@types/react-dom": "^18.2.18",
+    "@types/node": "^20.11.17",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
     "eslint": "^8.56.0",
-    "eslint-config-next": "14.1.1-canary.31",
+    "eslint-config-next": "14.1.1-canary.48",
     "husky": "^9.0.10",
-    "turbo": "^1.12.2",
+    "turbo": "^1.12.3",
     "typescript": "^5.3.3"
   }
 }
