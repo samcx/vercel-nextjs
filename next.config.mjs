@@ -2,12 +2,12 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  reactStrictMode: true,
   logging: {
     fetches: {
       fullUrl: true,
     },
   },
+  reactStrictMode: true,
 }
 
 export default nextConfig
