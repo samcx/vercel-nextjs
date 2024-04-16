@@ -22,7 +22,9 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body>{children}</body>
       <div>count: {count}</div>
-      <button onClick={() => set(count + 1)} type="button">Increment+</button>
+      <button onClick={() => set(count + 1)} type="button">
+        Increment+
+      </button>
       <Link href="/test">Go to test</Link>
       <Link href="/test2">Go to test2</Link>
     </html>
