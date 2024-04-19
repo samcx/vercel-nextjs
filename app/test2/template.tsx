@@ -1,4 +1,6 @@
 import { Suspense } from "react"
+import NavItems from "./nav-items"
+import Count from "./count"
 
 export default function TestTemplate({
   children,
@@ -7,7 +9,11 @@ export default function TestTemplate({
 }) {
   return (
     <>
-      <div>Inner Template!</div>
+      <h1>Inner Template</h1>
+      <Suspense fallback={<div>Loading...</div>}>
+        <NavItems />
+      </Suspense>
+      <Count />
       <div>{children}</div>
     </>
   )
