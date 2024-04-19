@@ -1,4 +1,5 @@
 import Link from "next/link"
+
 export default async function NavItems() {
   // Simulate a data fetch
   await new Promise((resolve) => setTimeout(resolve, 3000))
