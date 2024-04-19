@@ -1,6 +1,6 @@
-import { Suspense } from "react"
-import NavItems from "./nav-items"
-import Count from "./count"
+import { Suspense } from 'react'
+import Count from './count'
+import NavItems from './nav-items'
 
 export default function TestTemplate({
   children,

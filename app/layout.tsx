@@ -1,14 +1,14 @@
-"use client"
+'use client'
 
-import { Inter } from "next/font/google"
-import Link from "next/link"
-import { useState } from "react"
+import { Inter } from 'next/font/google'
+import Link from 'next/link'
+import { useState } from 'react'
 
-import "./global.css"
+import './global.css'
 
 const inter = Inter({
-  display: "swap",
-  subsets: ["latin"],
+  display: 'swap',
+  subsets: ['latin'],
 })
 
 export default function RootLayout({
