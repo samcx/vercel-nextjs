@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 import './global.css'
 
 export const metadata: Metadata = {
-  title: "Vercel Next.js",
-  description: "Testing Next.js on Vercel."
+  title: 'Vercel Next.js',
+  description: 'Testing Next.js on Vercel.',
 }
 
 const inter = Inter({
