@@ -1,10 +1,12 @@
-'use client'
-
+import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Link from 'next/link'
-import { useState } from 'react'
 
 import './global.css'
+
+export const metadata: Metadata = {
+  title: "Vercel Next.js",
+  description: "Testing Next.js on Vercel."
+}
 
 const inter = Inter({
   display: 'swap',
@@ -16,17 +18,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const [count, set] = useState(0)
-
   return (
     <html lang="en" className={inter.className}>
       <body>
-        <div>count: {count}</div>
-        <button onClick={() => set(count + 1)} type="button">
-          Increment+
-        </button>
-        <Link href="/test">Layout Test</Link>
-        <Link href="/test2">Template Test</Link>
         <main>{children}</main>
       </body>
     </html>
