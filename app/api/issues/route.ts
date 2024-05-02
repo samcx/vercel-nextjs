@@ -9,8 +9,8 @@ export async function GET(request: Request) {
   const { data } = await octoClient.rest.search.issuesAndPullRequests({
     order: 'desc',
     per_page: 15,
-    q: 'is:pr is:open',
-    sort: 'reactions-+1',
+    q: 'is:issue is:open',
+    sort: 'reactions',
   })
 
   return NextResponse.json({ data: data })
