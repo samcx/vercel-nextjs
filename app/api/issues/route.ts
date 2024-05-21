@@ -1,7 +1,7 @@
 import { getOctokit } from '@actions/github'
 import { NextResponse } from 'next/server'
 
-export async function GET(request: Request) {
+export async function GET() {
   if (!process.env.GITHUB_TOKEN) throw new TypeError('GITHUB_TOKEN not set')
 
   const octoClient = getOctokit(process.env.GITHUB_TOKEN)
