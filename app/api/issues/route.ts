@@ -38,7 +38,7 @@ export async function GET() {
 
   const owner = 'vercel'
   const name = 'next.js'
-  const maxPages = 3
+  const maxPages = 1
 
   let issues: Issue[] = []
   let hasNextPage = true
