@@ -1,7 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "experimentalUI": true,
-  "pipeline": {
+  "tasks": {
     "build": {
       "env": ["NEXT_PUBLIC_AUTHOR", "GITHUB_TOKEN"],
       "outputs": [".next/**", "!.next/cache/**"]
