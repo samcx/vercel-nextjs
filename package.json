@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "@octokit/graphql": "^8.1.1",
-    "@octokit/rest": "^20.1.1",
-    "@vercel/edge-config": "^1.1.0",
+    "@vercel/edge-config": "^1.1.1",
     "next": "^15.0.0-canary.13",
     "react": "^19.0.0-rc-eb259b5d3b-20240605",
     "react-dom": "^19.0.0-rc-eb259b5d3b-20240605"
