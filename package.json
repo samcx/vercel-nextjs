@@ -13,9 +13,9 @@
   "dependencies": {
     "@octokit/graphql": "^8.1.1",
     "@vercel/edge-config": "^1.2.0",
-    "next": "^15.0.0-canary.29",
-    "react": "^19.0.0-rc-fb9a90fa48-20240614",
-    "react-dom": "^19.0.0-rc-fb9a90fa48-20240614"
+    "next": "^15.0.0-canary.37",
+    "react": "^19.0.0-rc-1434af3d22-20240618",
+    "react-dom": "^19.0.0-rc-1434af3d22-20240618"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.1",
@@ -23,10 +23,10 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "eslint": "^8.57.0",
-    "eslint-config-next": "^15.0.0-canary.29",
+    "eslint-config-next": "^15.0.0-canary.37",
     "husky": "^9.0.11",
     "turbo": "^2.0.4",
     "typescript": "^5.4.5"
   },
-  "packageManager": "bun@1.1.13"
+  "packageManager": "bun@1.1.14"
 }
