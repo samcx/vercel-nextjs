@@ -75,7 +75,7 @@ export async function GET() {
       `,
         owner,
         name,
-        last: 100,
+        last: 20,
         before: endCursor,
         headers: { authorization: `token ${process.env.GITHUB_TOKEN}` },
       })
