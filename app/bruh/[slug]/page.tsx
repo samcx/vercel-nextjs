@@ -2,9 +2,11 @@ import { randomUUID } from 'node:crypto'
 
 export const revalidate = 10
 
-export const dynamic = 'force-static'
+export default async function Page() {
+  const data = await fetch('https://next-data-api-endpoint.vercel.app/api/random', {
+    next: { tags: ['thank u, next'] },
+  }).then((res) => res.text())
 
-export default function Page() {
   return (
     <div>
       <div>UUID: {randomUUID()}</div>
