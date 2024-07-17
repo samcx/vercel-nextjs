@@ -65,9 +65,11 @@ export async function GET() {
   })
 
   let issues: Issue[] = response.repository.issues.nodes
-  
+
   // Filter the issues client-side to ensure all issues are since the specified date
-  issues = issues.filter(issue => new Date(issue.createdAt) >= new Date(sinceDate))
+  issues = issues.filter(
+    (issue) => new Date(issue.createdAt) >= new Date(sinceDate),
+  )
 
   return NextResponse.json({ data: issues })
 }
