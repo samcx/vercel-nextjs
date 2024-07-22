@@ -14,7 +14,7 @@
     "@octokit/graphql": "^8.1.1",
     "@octokit/rest": "^21.0.1",
     "@vercel/edge-config": "^1.2.1",
-    "next": "15.0.0-canary.70",
+    "next": "15.0.0-canary.76",
     "react": "19.0.0-rc-df5f2736-20240712",
     "react-dom": "19.0.0-rc-df5f2736-20240712"
   },
