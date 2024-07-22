@@ -13,7 +13,7 @@
   "dependencies": {
     "@octokit/graphql": "^8.1.1",
     "@octokit/rest": "^21.0.1",
-    "@vercel/edge-config": "^1.2.0",
+    "@vercel/edge-config": "^1.2.1",
     "next": "15.0.0-canary.70",
     "react": "19.0.0-rc-df5f2736-20240712",
     "react-dom": "19.0.0-rc-df5f2736-20240712"
@@ -29,5 +29,5 @@
     "turbo": "^2.0.7",
     "typescript": "^5.5.3"
   },
-  "packageManager": "pnpm@9.5.0"
+  "packageManager": "pnpm@9.6.0"
 }
