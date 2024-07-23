@@ -12,7 +12,7 @@ export async function GET() {
     owner: 'vercel',
     repo: 'next.js',
     labels: 'bug',
-    per_page: 1
+    per_page: 1,
   })
 
   return NextResponse.json({ data })
