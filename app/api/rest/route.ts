@@ -1,5 +1,7 @@
-import { Octokit } from '@octokit/rest'
 import { NextResponse } from 'next/server'
+import { Octokit } from '@octokit/rest'
+// import { openai } from '@ai-sdk/openai'
+// import { generateText } from 'ai'
 
 export async function GET() {
   if (!process.env.GITHUB_TOKEN) throw new TypeError('GITHUB_TOKEN not set')
@@ -8,12 +10,18 @@ export async function GET() {
     auth: process.env.GITHUB_TOKEN,
   })
 
-  const { data } = await octokit.rest.issues.listForRepo({
+  // const model = 'gpt-4o'
+
+  const { data: issues } = await octokit.rest.issues.listForRepo({
     owner: 'vercel',
     repo: 'next.js',
-    labels: 'bug',
-    per_page: 1,
+    per_page: 25,
   })
 
-  return NextResponse.json({ data })
+  // const result = await generateText({
+  //   model: openai(model),
+  //   prompt: `${JSON.stringify(issues)}\nWrite a succint summary of the above issues.`,
+  // })
+
+  return NextResponse.json({ issues: `${JSON.stringify(issues)}` })
 }
