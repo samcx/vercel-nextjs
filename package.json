@@ -16,7 +16,7 @@
     "@octokit/rest": "^21.0.1",
     "@vercel/edge-config": "^1.2.1",
     "ai": "^3.3.5",
-    "next": "15.0.0-canary.100",
+    "next": "15.0.0-canary.111",
     "react": "19.0.0-rc-8269d55d-20240802",
     "react-dom": "19.0.0-rc-8269d55d-20240802",
     "zod": "^3.23.8"
