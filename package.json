@@ -16,7 +16,7 @@
     "@octokit/rest": "^21.0.1",
     "@vercel/edge-config": "^1.2.1",
     "ai": "^3.3.5",
-    "next": "15.0.0-canary.111",
+    "next": "15.0.0-canary.116",
     "react": "19.0.0-rc-2d2cc042-20240809",
     "react-dom": "19.0.0-rc-2d2cc042-20240809",
     "zod": "^3.23.8"
@@ -32,5 +32,5 @@
     "turbo": "^2.0.12",
     "typescript": "^5.5.4"
   },
-  "packageManager": "pnpm@9.7.0"
+  "packageManager": "pnpm@9.7.1"
 }
