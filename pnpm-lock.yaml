@@ -22,16 +22,16 @@ importers:
         version: 1.2.1(@opentelemetry/api@1.9.0)
       ai:
         specifier: ^3.3.5
-        version: 3.3.5(react@19.0.0-rc-2d2cc042-20240809)(sswr@2.1.0(svelte@4.2.18))(svelte@4.2.18)(vue@3.4.37(typescript@5.5.4))(zod@3.23.8)
+        version: 3.3.5(react@19.0.0-rc-19bd26be-20240815)(sswr@2.1.0(svelte@4.2.18))(svelte@4.2.18)(vue@3.4.37(typescript@5.5.4))(zod@3.23.8)
       next:
         specifier: 15.0.0-canary.116
-        version: 15.0.0-canary.116(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-2d2cc042-20240809))(react@19.0.0-rc-2d2cc042-20240809)
+        version: 15.0.0-canary.116(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-19bd26be-20240815))(react@19.0.0-rc-19bd26be-20240815)
       react:
-        specifier: 19.0.0-rc-2d2cc042-20240809
-        version: 19.0.0-rc-2d2cc042-20240809
+        specifier: 19.0.0-rc-19bd26be-20240815
+        version: 19.0.0-rc-19bd26be-20240815
       react-dom:
         specifier: 19.0.0-rc-2d2cc042-20240809
-        version: 19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-2d2cc042-20240809)
+        version: 19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-19bd26be-20240815)
       zod:
         specifier: ^3.23.8
         version: 3.23.8
@@ -1552,8 +1552,8 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@19.0.0-rc-2d2cc042-20240809:
-    resolution: {integrity: sha512-+yW7RLHtdV9YKmHxFJoKrC80vJPv2If5J8MVw7Ui7NTcBs7bIpwSIaY2vrciPRb7B7JqG3TsZHxo12q/inYUhw==}
+  react@19.0.0-rc-19bd26be-20240815:
+    resolution: {integrity: sha512-LfNxIja6aj9OCTmbVh6QUwy9lMVt2lp/S0erap/gdh1PvHpaYGMddyXoIOR/D2scvKachosW+tbxThXfUmBCPw==}
     engines: {node: '>=0.10.0'}
 
   reflect.getprototypeof@1.0.6:
@@ -1908,13 +1908,13 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/react@0.0.41(react@19.0.0-rc-2d2cc042-20240809)(zod@3.23.8)':
+  '@ai-sdk/react@0.0.41(react@19.0.0-rc-19bd26be-20240815)(zod@3.23.8)':
     dependencies:
       '@ai-sdk/provider-utils': 1.0.9(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.29(zod@3.23.8)
-      swr: 2.2.5(react@19.0.0-rc-2d2cc042-20240809)
+      swr: 2.2.5(react@19.0.0-rc-19bd26be-20240815)
     optionalDependencies:
-      react: 19.0.0-rc-2d2cc042-20240809
+      react: 19.0.0-rc-19bd26be-20240815
       zod: 3.23.8
 
   '@ai-sdk/solid@0.0.32(zod@3.23.8)':
@@ -2426,11 +2426,11 @@ snapshots:
 
   acorn@8.12.1: {}
 
-  ai@3.3.5(react@19.0.0-rc-2d2cc042-20240809)(sswr@2.1.0(svelte@4.2.18))(svelte@4.2.18)(vue@3.4.37(typescript@5.5.4))(zod@3.23.8):
+  ai@3.3.5(react@19.0.0-rc-19bd26be-20240815)(sswr@2.1.0(svelte@4.2.18))(svelte@4.2.18)(vue@3.4.37(typescript@5.5.4))(zod@3.23.8):
     dependencies:
       '@ai-sdk/provider': 0.0.17
       '@ai-sdk/provider-utils': 1.0.9(zod@3.23.8)
-      '@ai-sdk/react': 0.0.41(react@19.0.0-rc-2d2cc042-20240809)(zod@3.23.8)
+      '@ai-sdk/react': 0.0.41(react@19.0.0-rc-19bd26be-20240815)(zod@3.23.8)
       '@ai-sdk/solid': 0.0.32(zod@3.23.8)
       '@ai-sdk/svelte': 0.0.34(svelte@4.2.18)(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.29(zod@3.23.8)
@@ -2443,7 +2443,7 @@ snapshots:
       secure-json-parse: 2.7.0
       zod-to-json-schema: 3.22.5(zod@3.23.8)
     optionalDependencies:
-      react: 19.0.0-rc-2d2cc042-20240809
+      react: 19.0.0-rc-19bd26be-20240815
       sswr: 2.1.0(svelte@4.2.18)
       svelte: 4.2.18
       zod: 3.23.8
@@ -3413,7 +3413,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.0.0-canary.116(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-2d2cc042-20240809))(react@19.0.0-rc-2d2cc042-20240809):
+  next@15.0.0-canary.116(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-19bd26be-20240815))(react@19.0.0-rc-19bd26be-20240815):
     dependencies:
       '@next/env': 15.0.0-canary.116
       '@swc/counter': 0.1.3
@@ -3422,9 +3422,9 @@ snapshots:
       caniuse-lite: 1.0.30001651
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 19.0.0-rc-2d2cc042-20240809
-      react-dom: 19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-2d2cc042-20240809)
-      styled-jsx: 5.1.6(react@19.0.0-rc-2d2cc042-20240809)
+      react: 19.0.0-rc-19bd26be-20240815
+      react-dom: 19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-19bd26be-20240815)
+      styled-jsx: 5.1.6(react@19.0.0-rc-19bd26be-20240815)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.116
       '@next/swc-darwin-x64': 15.0.0-canary.116
@@ -3555,14 +3555,14 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-2d2cc042-20240809):
+  react-dom@19.0.0-rc-2d2cc042-20240809(react@19.0.0-rc-19bd26be-20240815):
     dependencies:
-      react: 19.0.0-rc-2d2cc042-20240809
+      react: 19.0.0-rc-19bd26be-20240815
       scheduler: 0.25.0-rc-2d2cc042-20240809
 
   react-is@16.13.1: {}
 
-  react@19.0.0-rc-2d2cc042-20240809: {}
+  react@19.0.0-rc-19bd26be-20240815: {}
 
   reflect.getprototypeof@1.0.6:
     dependencies:
@@ -3756,10 +3756,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(react@19.0.0-rc-2d2cc042-20240809):
+  styled-jsx@5.1.6(react@19.0.0-rc-19bd26be-20240815):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-2d2cc042-20240809
+      react: 19.0.0-rc-19bd26be-20240815
 
   supports-color@7.2.0:
     dependencies:
@@ -3784,11 +3784,11 @@ snapshots:
       magic-string: 0.30.11
       periscopic: 3.1.0
 
-  swr@2.2.5(react@19.0.0-rc-2d2cc042-20240809):
+  swr@2.2.5(react@19.0.0-rc-19bd26be-20240815):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-2d2cc042-20240809
-      use-sync-external-store: 1.2.2(react@19.0.0-rc-2d2cc042-20240809)
+      react: 19.0.0-rc-19bd26be-20240815
+      use-sync-external-store: 1.2.2(react@19.0.0-rc-19bd26be-20240815)
 
   swrev@4.0.0: {}
 
@@ -3901,9 +3901,9 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-sync-external-store@1.2.2(react@19.0.0-rc-2d2cc042-20240809):
+  use-sync-external-store@1.2.2(react@19.0.0-rc-19bd26be-20240815):
     dependencies:
-      react: 19.0.0-rc-2d2cc042-20240809
+      react: 19.0.0-rc-19bd26be-20240815
 
   vue@3.4.37(typescript@5.5.4):
     dependencies:
