@@ -11,26 +11,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^0.0.44",
+    "@ai-sdk/openai": "^0.0.53",
     "@octokit/graphql": "^8.1.1",
-    "@octokit/rest": "^21.0.1",
+    "@octokit/rest": "^21.0.2",
     "@vercel/edge-config": "^1.2.1",
-    "ai": "^3.3.5",
-    "next": "15.0.0-canary.116",
-    "react": "19.0.0-rc-19bd26be-20240815",
-    "react-dom": "19.0.0-rc-19bd26be-20240815",
+    "ai": "^3.3.17",
+    "next": "15.0.0-canary.128",
+    "react": "19.0.0-rc-b57d2823-20240822",
+    "react-dom": "19.0.0-rc-b57d2823-20240822",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "@types/node": "^22.2.0",
-    "@types/react": "^18.3.3",
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "eslint": "^8.57.0",
-    "eslint-config-next": "15.0.0-canary.116",
-    "husky": "^9.1.4",
-    "turbo": "^2.0.12",
+    "eslint-config-next": "15.0.0-canary.128",
+    "husky": "^9.1.5",
+    "turbo": "^2.0.14",
     "typescript": "^5.5.4"
   },
-  "packageManager": "pnpm@9.7.1"
+  "packageManager": "pnpm@9.8.0"
 }
