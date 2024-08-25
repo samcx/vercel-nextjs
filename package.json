@@ -11,11 +11,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^0.0.53",
+    "@ai-sdk/openai": "^0.0.54",
     "@octokit/graphql": "^8.1.1",
     "@octokit/rest": "^21.0.2",
     "@vercel/edge-config": "^1.2.1",
-    "ai": "^3.3.17",
+    "ai": "^3.3.20",
     "next": "15.0.0-canary.128",
     "react": "19.0.0-rc-b57d2823-20240822",
     "react-dom": "19.0.0-rc-b57d2823-20240822",
@@ -23,13 +23,13 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "@types/node": "^22.5.0",
+    "@types/node": "^22.5.1",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "15.0.0-canary.128",
     "husky": "^9.1.5",
-    "turbo": "^2.0.14",
+    "turbo": "^2.1.0",
     "typescript": "^5.5.4"
   },
   "packageManager": "pnpm@9.8.0"
