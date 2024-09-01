@@ -1,11 +1,6 @@
-import { headers } from 'next/headers'
-
 export async function GET() {
-  const headersList = headers()
-  const referer = headersList.get('referer')
-
-  return new Response('Hello, Next.js!', {
-    status: 200,
-    headers: { referer: referer },
+  return Response.json({
+    value: `${process.env.VERCEL}`,
+    'type of': `${typeof process.env.NODE_ENV}`,
   })
 }
