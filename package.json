@@ -11,12 +11,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^0.0.54",
+    "@ai-sdk/openai": "^0.0.58",
     "@octokit/graphql": "^8.1.1",
     "@octokit/rest": "^21.0.2",
     "@vercel/edge-config": "^1.2.1",
     "@vercel/functions": "^1.4.1",
-    "ai": "^3.3.21",
+    "ai": "^3.3.28",
     "next": "15.0.0-canary.145",
     "react": "19.0.0-rc-7771d3a7-20240827",
     "react-dom": "19.0.0-rc-7771d3a7-20240827",
