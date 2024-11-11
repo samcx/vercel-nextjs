@@ -5,7 +5,7 @@
   "repository": "https://github.com/samcx/vercel-nextjs",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -18,7 +18,7 @@
     "@vercel/functions": "^1.5.0",
     "@vercel/kv": "^3.0.0",
     "ai": "^3.4.33",
-    "next": "15.0.3-canary.5",
+    "next": "15.0.4-canary.6",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
     "zod": "^3.23.8"
