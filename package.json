@@ -11,7 +11,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^0.0.71",
+    "@ai-sdk/openai": "^0.0.72",
     "@octokit/graphql": "^8.1.1",
     "@octokit/rest": "^21.0.2",
     "@vercel/edge-config": "^1.4.0",
