@@ -19,7 +19,7 @@
     "@vercel/functions": "^1.5.1",
     "@vercel/kv": "^3.0.0",
     "ai": "^4.0.9",
-    "next": "15.0.4-canary.31",
+    "next": "15.0.4-canary.48",
     "react": "19.0.0-rc-7670501b-20241124",
     "react-dom": "19.0.0-rc-7670501b-20241124",
     "zod": "^3.23.8"
@@ -35,5 +35,5 @@
     "turbo": "^2.3.3",
     "typescript": "^5.7.2"
   },
-  "packageManager": "pnpm@9.14.3"
+  "packageManager": "pnpm@9.15.0"
 }
