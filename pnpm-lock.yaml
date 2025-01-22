@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ai-sdk/openai':
-        specifier: ^1.0.12
-        version: 1.0.12(zod@3.23.8)
+        specifier: ^1.1.1
+        version: 1.1.1(zod@3.23.8)
       '@octokit/graphql':
         specifier: ^8.1.2
         version: 8.1.2
@@ -75,8 +75,8 @@ importers:
 
 packages:
 
-  '@ai-sdk/openai@1.0.12':
-    resolution: {integrity: sha512-w/fe7UJLbTAnSYO/o0phdVYC/Xzt/N75I6H4CRj5Zx+etbnNgTrfgFxYNxUY2kEhAeZZvuSm4xwVzWPKX741rw==}
+  '@ai-sdk/openai@1.1.1':
+    resolution: {integrity: sha512-0tUlrjSMWYYQxiC/6d6n5C6nxUYSHzlt/FipJgzKQleMts3Br5+u2cM4nwOVtuS14J2MsBM/SK2DGL0lFctirA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.0.0
@@ -90,8 +90,21 @@ packages:
       zod:
         optional: true
 
+  '@ai-sdk/provider-utils@2.1.1':
+    resolution: {integrity: sha512-+FRXSAdzPJFJN6TpyvyGWLo7WJuoBKI1g66UL+sli1HrxlldXSwxRPeb8tMMmNcyi3VKQogg2VsoJjlt4ort5w==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      zod: ^3.0.0
+    peerDependenciesMeta:
+      zod:
+        optional: true
+
   '@ai-sdk/provider@1.0.3':
     resolution: {integrity: sha512-WiuJEpHTrltOIzv3x2wx4gwksAHW0h6nK3SoDzjqCOJLu/2OJ1yASESTIX+f07ChFykHElVoP80Ol/fe9dw6tQ==}
+    engines: {node: '>=18'}
+
+  '@ai-sdk/provider@1.0.5':
+    resolution: {integrity: sha512-KATFp9CNXtMEzs8KBwLYK2+rGkkeED6p1+4koQveszyscIavObXIRW7vjr0MoZ9HFIHOUlrcak+3s/Xt3UXmAg==}
     engines: {node: '>=18'}
 
   '@ai-sdk/react@1.0.7':
@@ -1745,10 +1758,10 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/openai@1.0.12(zod@3.23.8)':
+  '@ai-sdk/openai@1.1.1(zod@3.23.8)':
     dependencies:
-      '@ai-sdk/provider': 1.0.3
-      '@ai-sdk/provider-utils': 2.0.5(zod@3.23.8)
+      '@ai-sdk/provider': 1.0.5
+      '@ai-sdk/provider-utils': 2.1.1(zod@3.23.8)
       zod: 3.23.8
 
   '@ai-sdk/provider-utils@2.0.5(zod@3.23.8)':
@@ -1760,7 +1773,20 @@ snapshots:
     optionalDependencies:
       zod: 3.23.8
 
+  '@ai-sdk/provider-utils@2.1.1(zod@3.23.8)':
+    dependencies:
+      '@ai-sdk/provider': 1.0.5
+      eventsource-parser: 3.0.0
+      nanoid: 3.3.8
+      secure-json-parse: 2.7.0
+    optionalDependencies:
+      zod: 3.23.8
+
   '@ai-sdk/provider@1.0.3':
+    dependencies:
+      json-schema: 0.4.0
+
+  '@ai-sdk/provider@1.0.5':
     dependencies:
       json-schema: 0.4.0
 
