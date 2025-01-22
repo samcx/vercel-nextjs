@@ -14,7 +14,7 @@
   "dependencies": {
     "@ai-sdk/openai": "^1.1.1",
     "@octokit/graphql": "^8.1.2",
-    "@octokit/rest": "^21.0.2",
+    "@octokit/rest": "^21.1.0",
     "@vercel/edge-config": "^1.4.0",
     "@vercel/functions": "^1.5.2",
     "@vercel/kv": "^3.0.0",
