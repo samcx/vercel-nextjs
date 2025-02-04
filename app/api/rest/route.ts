@@ -1,11 +1,19 @@
 import { NextResponse } from 'next/server'
-import { kv } from '@vercel/kv'
+import { Octokit } from '@octokit/rest'
 
 export async function GET() {
-  const scores = await kv.zrange('authorKudos', 0, -1, {
-    withScores: true,
-    rev: true,
+  if (!process.env.GITHUB_TOKEN) throw new TypeError('GITHUB_TOKEN not set')
+
+  const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
+
+  const owner = 'vercel'
+  const repo = 'next.js'
+
+  const { data: issue } = await octokit.issues.get({
+    owner,
+    repo,
+    issue_number: 75441,
   })
 
-  return NextResponse.json({ scores })
+  return NextResponse.json({ issue })
 }
