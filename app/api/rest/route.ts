@@ -12,7 +12,7 @@ export async function GET() {
   const { data: issue } = await octokit.issues.get({
     owner,
     repo,
-    issue_number: 75441,
+    issue_number: 75783,
   })
 
   return NextResponse.json({ issue })
