@@ -2,7 +2,7 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   experimental: {
-    nodeMiddleware: true,
+    newDevOverlay: true,
     ppr: true,
   },
   logging: {
