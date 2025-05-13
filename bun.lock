@@ -8,7 +8,7 @@
         "@octokit/graphql": "^8.2.2",
         "@octokit/rest": "^21.1.1",
         "@vercel/edge-config": "^1.4.0",
-        "@vercel/functions": "^2.0.2",
+        "@vercel/functions": "^2.0.3",
         "@vercel/kv": "^3.0.0",
         "ai": "^4.3.15",
         "next": "^15.4.0-canary.33",
@@ -266,7 +266,7 @@
 
     "@vercel/edge-config-fs": ["@vercel/edge-config-fs@0.1.0", "", {}, "sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg=="],
 
-    "@vercel/functions": ["@vercel/functions@2.0.2", "", { "peerDependencies": { "@aws-sdk/credential-provider-web-identity": "*" }, "optionalPeers": ["@aws-sdk/credential-provider-web-identity"] }, "sha512-ywV32hWjWypcExEWePgq4D4i0kEMfwgd8kqVvEPq6G+Yiz/eGhGM24x3MbRZNHg0qlJT7g5RuityGVqkETPkZg=="],
+    "@vercel/functions": ["@vercel/functions@2.0.3", "", { "peerDependencies": { "@aws-sdk/credential-provider-web-identity": "*" }, "optionalPeers": ["@aws-sdk/credential-provider-web-identity"] }, "sha512-F4PX2D/0WDmoFz3fc5FcdINnSPrM+gU2z18KG7gej7xsvc6PbQ/rEUvP+RcOF6JGzTrHoZfSa1mpcrScuD6AEw=="],
 
     "@vercel/kv": ["@vercel/kv@3.0.0", "", { "dependencies": { "@upstash/redis": "^1.34.0" } }, "sha512-pKT8fRnfyYk2MgvyB6fn6ipJPCdfZwiKDdw7vB+HL50rjboEBHDVBEcnwfkEpVSp2AjNtoaOUH7zG+bVC/rvSg=="],
 
