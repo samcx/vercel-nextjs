@@ -1,8 +1,11 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
+  cacheComponents: true,
   experimental: {
-    cacheComponents: true,
+    clientSegmentCache: true,
+    turbopackFileSystemCacheForBuild: true,
+    turbopackFileSystemCacheForDev: true,
   },
   logging: {
     fetches: {
