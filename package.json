@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prepare": "husky"
+    "lint": "biome check"
   },
   "dependencies": {
     "@ai-sdk/openai": "^2.0.77",
@@ -17,7 +17,7 @@
     "@vercel/functions": "^3.3.4",
     "@vercel/kv": "^3.0.0",
     "ai": "^5.0.107",
-    "next": "^16.1.0-canary.15",
+    "next": "^16.1.1-canary.17",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "zod": "^4.1.13"
@@ -31,5 +31,13 @@
     "eslint-config-next": "^16.1.0-canary.15",
     "husky": "^9.1.7",
     "typescript": "^5.9.3"
-  }
+  },
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
 }
