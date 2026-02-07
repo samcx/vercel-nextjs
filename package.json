@@ -14,7 +14,7 @@
     "@ai-sdk/openai": "^3.0.7",
     "@octokit/rest": "^22.0.1",
     "@vercel/edge-config": "^1.4.3",
-    "@vercel/functions": "^3.3.5",
+    "@vercel/functions": "^3.4.2",
     "@vercel/kv": "^3.0.0",
     "ai": "^6.0.86",
     "next": "^16.2.0-canary.45",
