@@ -11,7 +11,7 @@
     "lint": "biome check"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^3.0.29",
+    "@ai-sdk/openai": "^3.0.37",
     "@octokit/rest": "^22.0.1",
     "@vercel/edge-config": "^1.4.3",
     "@vercel/functions": "^3.4.2",
