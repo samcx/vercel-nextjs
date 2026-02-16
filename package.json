@@ -16,7 +16,7 @@
     "@vercel/edge-config": "^1.4.3",
     "@vercel/functions": "^3.4.3",
     "@vercel/kv": "^3.0.0",
-    "ai": "^6.0.86",
+    "ai": "^6.0.105",
     "next": "^16.2.0-canary.69",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
