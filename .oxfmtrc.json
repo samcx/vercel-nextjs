@@ -11,8 +11,5 @@
   "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,
-  "ignorePatterns": [
-    ".next",
-    "next-env.d.ts"
-  ]
+  "ignorePatterns": [".next", "next-env.d.ts"]
 }

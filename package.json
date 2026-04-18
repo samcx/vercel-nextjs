@@ -8,7 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome check"
+    "format": "oxfmt --check"
   },
   "dependencies": {
     "@vercel/edge-config": "^1.4.3",
@@ -21,11 +21,11 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.15",
     "@types/node": "^25.7.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "husky": "^9.1.7",
+    "oxfmt": "^0.50.0",
     "typescript": "^6.0.3"
   },
   "ignoreScripts": [
