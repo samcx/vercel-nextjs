@@ -2,8 +2,8 @@
   "name": "vercel-nextjs",
   "version": "1.0.0",
   "description": "Testing Next.js on Vercel.",
-  "repository": "https://github.com/samcx/vercel-nextjs",
   "license": "MIT",
+  "repository": "https://github.com/samcx/vercel-nextjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
