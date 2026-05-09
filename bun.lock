@@ -6,7 +6,7 @@
       "name": "vercel-nextjs",
       "dependencies": {
         "@vercel/edge-config": "^1.4.3",
-        "@vercel/functions": "^3.6.0",
+        "@vercel/functions": "^3.6.1",
         "@vercel/kv": "^3.0.0",
         "ai": "^6.0.188",
         "next": "^16.3.0-canary.28",
@@ -160,11 +160,11 @@
 
     "@vercel/edge-config-fs": ["@vercel/edge-config-fs@0.1.0", "", {}, "sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg=="],
 
-    "@vercel/functions": ["@vercel/functions@3.6.0", "", { "dependencies": { "@vercel/oidc": "3.4.1" }, "peerDependencies": { "@aws-sdk/credential-provider-web-identity": "*" }, "optionalPeers": ["@aws-sdk/credential-provider-web-identity"] }, "sha512-Xj68JYqqJwtqFWJN7EWmFN7MOiUjv5whjw48UEKqQbg8r7hRkhuJhncTU0ba3jJCh/wxEuLWckrtsKcrHQraxw=="],
+    "@vercel/functions": ["@vercel/functions@3.6.1", "", { "dependencies": { "@vercel/oidc": "3.5.0" }, "peerDependencies": { "@aws-sdk/credential-provider-web-identity": "*" }, "optionalPeers": ["@aws-sdk/credential-provider-web-identity"] }, "sha512-xz+zZvj/XE6KDHZ8kYNO25Axpjng/kTJd/87SwONa6hzlq94K69OdqH1ZC/CehbtwWknpeyHqUHmpnfoaCbLZQ=="],
 
     "@vercel/kv": ["@vercel/kv@3.0.0", "", { "dependencies": { "@upstash/redis": "^1.34.0" } }, "sha512-pKT8fRnfyYk2MgvyB6fn6ipJPCdfZwiKDdw7vB+HL50rjboEBHDVBEcnwfkEpVSp2AjNtoaOUH7zG+bVC/rvSg=="],
 
-    "@vercel/oidc": ["@vercel/oidc@3.4.1", "", {}, "sha512-H6B+/ig/GoahccL3WZjiHayHw1H5KhvTJNceqYulwfK9kkz5iul2hTmYzcJ7tTCQzyd0dutuL9xYFZCyLUqsog=="],
+    "@vercel/oidc": ["@vercel/oidc@3.5.0", "", {}, "sha512-jo7GgeJx2YMkjg9A28pFM5p88n5SnSHvDeNlf9898bRWiG9jPxwedj/gn/2XTw4UOTyQ50uHlrTGSlf/XU5tgw=="],
 
     "ai": ["ai@6.0.188", "", { "dependencies": { "@ai-sdk/gateway": "3.0.118", "@ai-sdk/provider": "3.0.10", "@ai-sdk/provider-utils": "4.0.27", "@opentelemetry/api": "^1.9.0" }, "peerDependencies": { "zod": "^3.25.76 || ^4.1.8" } }, "sha512-kNwIl1MM4ESzeOPDYuN+FidJ2QY5kGWHLtTMru6HHPW/JJ6nPuvHRhJ8tMX/Y2Tijx9DCiv2W7y5IBouuB712g=="],
 
