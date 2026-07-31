@@ -1,4 +1,4 @@
-import { get, has } from '@vercel/edge-config'
+import { get, has } from '@vercel/global-config'
 import { type NextRequest, NextResponse } from 'next/server'
 
 export async function proxy(request: NextRequest) {
@@ -7,9 +7,9 @@ export async function proxy(request: NextRequest) {
   }
 
   const paths = request.nextUrl.pathname.split('/')
-  const edgeConfigKeyExists = await has(paths[1])
+  const globalConfigKeyExists = await has(paths[1])
 
-  if (edgeConfigKeyExists) {
+  if (globalConfigKeyExists) {
     const redirect = (await get(paths[1])) as string
 
     if (paths[1] === 'issues' && paths[2]) {
