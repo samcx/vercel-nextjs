@@ -15,8 +15,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.1(next@16.3.1-canary.26(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
       ai:
-        specifier: ^7.0.47
-        version: 7.0.71(zod@4.4.3)
+        specifier: ^7.0.73
+        version: 7.0.73(zod@4.4.3)
       next:
         specifier: 16.3.1-canary.26
         version: 16.3.1-canary.26(@types/node@26.2.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -51,8 +51,8 @@ importers:
 
 packages:
 
-  '@ai-sdk/gateway@4.0.57':
-    resolution: {integrity: sha512-RmDBcAZW4RKQYOuZzU4x1sxIodP1a9JzRdMpoRr1f+5RPkFjHgafP5t4h3Fyp7s1NC7XPQ3FrAH3MJxjJAwJ7A==}
+  '@ai-sdk/gateway@4.0.59':
+    resolution: {integrity: sha512-9MPyBBXU5snhuvqMa3OSOYtHP+wlyepJ+E0E+9lVNoxLGmi4sZqGeLbIxSYZeTf7qQ2xPshtfo5qDJHaOmAHvw==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -591,8 +591,8 @@ packages:
   '@workflow/serde@4.1.0':
     resolution: {integrity: sha512-pav4F2BoirECWR7Nf1TKt+2eETcBj7jj4cBefQ8VXQCA6NPkaKeLfj/zMgi+3zYV5ZIBT4GuUiphsj0/b9hPQQ==}
 
-  ai@7.0.71:
-    resolution: {integrity: sha512-e3PhIepVn9zErrsOjvM2ed3rvB2bTLzJYKPIqDSJles9sKx45ZCUSDSWavhh+WGQ9BQo2RMsjtf+venEmGFHlg==}
+  ai@7.0.73:
+    resolution: {integrity: sha512-rm2Rk68seeyhfgXl1JA/oaHcQHL018AfgydkJWx7Bgz0wGDHyvl30SnRIU2V7ZVR60A5K0SOLyP78EZmEJ2tOw==}
     engines: {node: '>=22'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -820,7 +820,7 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/gateway@4.0.57(zod@4.4.3)':
+  '@ai-sdk/gateway@4.0.59(zod@4.4.3)':
     dependencies:
       '@ai-sdk/provider': 4.0.7
       '@ai-sdk/provider-utils': 5.0.28(zod@4.4.3)
@@ -1144,9 +1144,9 @@ snapshots:
 
   '@workflow/serde@4.1.0': {}
 
-  ai@7.0.71(zod@4.4.3):
+  ai@7.0.73(zod@4.4.3):
     dependencies:
-      '@ai-sdk/gateway': 4.0.57(zod@4.4.3)
+      '@ai-sdk/gateway': 4.0.59(zod@4.4.3)
       '@ai-sdk/provider': 4.0.7
       '@ai-sdk/provider-utils': 5.0.28(zod@4.4.3)
       zod: 4.4.3
