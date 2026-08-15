@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@vercel/functions':
-        specifier: ^3.7.6
+        specifier: ^3.9.5
         version: 3.9.5
       '@vercel/global-config':
         specifier: ^1.5.0
