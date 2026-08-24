@@ -14,7 +14,7 @@
     "@vercel/functions": "^3.9.5",
     "@vercel/global-config": "^1.5.0",
     "ai": "^7.0.83",
-    "next": "16.4.0-canary.9",
+    "next": "16.4.0-canary.13",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "zod": "^4.4.3"
