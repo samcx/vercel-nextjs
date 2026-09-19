@@ -13,7 +13,7 @@
   "dependencies": {
     "@vercel/functions": "^3.9.8",
     "@vercel/global-config": "^1.5.0",
-    "ai": "^7.0.93",
+    "ai": "^7.0.107",
     "next": "16.4.0-canary.36",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
