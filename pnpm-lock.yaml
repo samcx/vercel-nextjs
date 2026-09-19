@@ -117,7 +117,7 @@ importers:
         version: 1.5.1(next@16.4.0-canary.36(@types/node@26.4.1)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
       ai:
         specifier: ^7.0.107
-        version: 7.0.107(zod@4.5.4)
+        version: 7.0.107(zod@4.6.5)
       next:
         specifier: 16.4.0-canary.36
         version: 16.4.0-canary.36(@types/node@26.4.1)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
@@ -128,8 +128,8 @@ importers:
         specifier: ^19.3.0
         version: 19.3.0(react@19.3.0)
       zod:
-        specifier: ^4.5.4
-        version: 4.5.4
+        specifier: ^4.6.5
+        version: 4.6.5
     devDependencies:
       '@types/node':
         specifier: ^26.4.1
@@ -916,26 +916,26 @@ packages:
   zod@4.1.11:
     resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
 
-  zod@4.5.4:
-    resolution: {integrity: sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==}
+  zod@4.6.5:
+    resolution: {integrity: sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==}
 
 snapshots:
 
-  '@ai-sdk/gateway@4.0.87(zod@4.5.4)':
+  '@ai-sdk/gateway@4.0.87(zod@4.6.5)':
     dependencies:
       '@ai-sdk/provider': 4.0.17
-      '@ai-sdk/provider-utils': 5.0.45(zod@4.5.4)
+      '@ai-sdk/provider-utils': 5.0.45(zod@4.6.5)
       '@vercel/oidc': 3.2.0
-      zod: 4.5.4
+      zod: 4.6.5
 
-  '@ai-sdk/provider-utils@5.0.45(zod@4.5.4)':
+  '@ai-sdk/provider-utils@5.0.45(zod@4.6.5)':
     dependencies:
       '@ai-sdk/provider': 4.0.17
       '@standard-schema/spec': 1.1.0
       '@workflow/serde': 4.1.0
       eventsource-parser: 3.1.1
       undici: 7.29.1
-      zod: 4.5.4
+      zod: 4.6.5
 
   '@ai-sdk/provider@4.0.17':
     dependencies:
@@ -1245,12 +1245,12 @@ snapshots:
 
   '@workflow/serde@4.1.0': {}
 
-  ai@7.0.107(zod@4.5.4):
+  ai@7.0.107(zod@4.6.5):
     dependencies:
-      '@ai-sdk/gateway': 4.0.87(zod@4.5.4)
+      '@ai-sdk/gateway': 4.0.87(zod@4.6.5)
       '@ai-sdk/provider': 4.0.17
-      '@ai-sdk/provider-utils': 5.0.45(zod@4.5.4)
-      zod: 4.5.4
+      '@ai-sdk/provider-utils': 5.0.45(zod@4.6.5)
+      zod: 4.6.5
 
   baseline-browser-mapping@2.11.25: {}
 
@@ -1481,4 +1481,4 @@ snapshots:
 
   zod@4.1.11: {}
 
-  zod@4.5.4: {}
+  zod@4.6.5: {}
