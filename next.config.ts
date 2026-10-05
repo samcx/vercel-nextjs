@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       fullUrl: true,
     },
   },
+  partialPrefetching: true,
   reactStrictMode: true,
   typedRoutes: true,
 }
